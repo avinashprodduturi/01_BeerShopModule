@@ -21,7 +21,7 @@ import com.avi.bar.service.BeerService;
  *
  */
 
-@Path("/Beers")
+@Path("/beers")
 public class BeerController {
 	
 	BeerService beerService = new BeerService();
